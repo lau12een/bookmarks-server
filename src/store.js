@@ -1,3 +1,7 @@
+const uuid = require('uuid/v4')
+
+const id = uuid();
+
 const bookmarks = [
   { id: uuid(),
     title: 'Thinkful',
